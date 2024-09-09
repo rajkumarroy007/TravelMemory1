@@ -1,5 +1,38 @@
 # Travel Memory
 
+<ul>
+<h1>Backend Configuration</h1>
+  <li>Clone the repository and navigate to the backend directory</li>
+  <li>The backend runs on port 3000. Set up a reverse proxy using nginx to ensure smooth deployment on EC2</li>
+  <li>Update the .env file to incorporate database connection details and port information</li>
+<h1>Frontend and Backend Connection</h2>
+    
+  <li>Navigate to the `urls.js` in the frontend directory</li>
+  <li>Update the file to ensure the front end communicates effectively with the backend</li>
+
+<h1>Scaling the Application</h3>
+  <li>Create multiple instances of both the frontend and backend servers</li>
+  <li>Add these instances to a load balancer to ensure efficient distribution of incoming traffic</li>
+<h1>Domain Setup with Cloudflare</h4>
+  
+  <li>Connect your custom domain to the application using Godady</li>
+  <li>Add these instances to a load balancer to ensure efficient distribution of incoming traffic</li>
+<h1>Documentation</h5>
+
+
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+  <li>Fourth item</li>
+    
+</ul>
+
+
 `.env` file to work with the backend after creating a database in mongodb: 
 
 ```
