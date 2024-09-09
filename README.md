@@ -5,6 +5,8 @@
   <li>Clone the repository and navigate to the backend directory</li>
   <li>The backend runs on port 3000. Set up a reverse proxy using nginx to ensure smooth deployment on EC2</li>
   <li>Update the .env file to incorporate database connection details and port information</li>
+  ![EC2_instance](https://github.com/user-attachments/assets/00bb51f1-93d8-4e04-9636-c219bb3679dc)
+
 <h1>Frontend and Backend Connection</h2>
     
   <li>Navigate to the `urls.js` in the frontend directory</li>
